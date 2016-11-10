@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="UI/UX Designer, Web Designer">
+    <meta name="description" content="Hello! I’m Judy Shyu, a Taiwanese designer based in Taipei. My work is focused on Web and Graphic design.">
+    <meta name="author" content="Judy Shyu">
+    <title>Judy Shyu's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/main6.css" rel="stylesheet" type="text/css">
+    <style>
+    /* This only works with JavaScript, 
+if it's not present, don't show loader */
+    
+    .no-js .preload {
+        display: none;
+    }
+    
+    .js .preload {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .preload {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 9999;
+        background: #22313F;
+    }
+    
+    .pre_gear {
+        width: 100px;
+        height: 100px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: fixed;
+        animation: gearturn 10s infinite ease alternate;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- /////////PRELOAD載入畫面///////// -->
+    <div class="preload no-js">
+        <img src="img/load.svg" class="pre_gear">
+    </div>
+    <!-- ////////////NAV導覽列//////////// -->
+    <nav>
+        <i class="fa fa-bars navtoggle"></i>
+        <span>MENU</span>
+        <ul class="menu_all">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- ////////////INTRO首頁//////////// -->
+    <section id="intro">
+        <div id="intro_gearset">
+            <img src="img/M_02.png" class="gear g2">
+            <img src="img/M_03_03.png" class="gear g3">
+        </div>
+        <div id="intro_container">
+            <img src="img/M_01.png" class="gear g1">
+            <div class="words">
+                <p>Hello! I'm Judy.
+                    <br> I do</p>
+                <ul class="changetxt">
+                    <li>Graphic Design.</li>
+                    <li>Websites.</li>
+                    <li>Logo Design.</li>
+                    <li>Illustration.</li>
+                </ul>
+            </div>
+        </div>
+        <i class="fa fa-angle-down btn godown"></i>
+    </section>
+    <!-- ////////////BACKGROUND//////////// -->
+    <div id="bg_gear">
+        <img src="img/bg1.png" class="gear bg1">
+        <img src="img/bg2.png" class="gear bg2">
+        <img src="img/bg3.png" class="gear bg3">
+        <img src="img/bg4.png" class="gear bg4">
+        <img src="img/bg5.png" class="gear bg5">
+        <img src="img/bg6.png" class="gear bg6">
+        <img src="img/bg7.png" class="gear bg7">
+        <img src="img/bg8.png" class="gear bg8">
+    </div>
+    <!-- ////////////ABOUT關於//////////// -->
+    <section id="about">
+        <div id="about_container">
+            <h3>ABOUT</h3>
+            <p>
+                I’m Judy Shyu, a Taiwanese designer based in Taipei.
+                <br> I’m also a student from Institute for Information Industry in Taiwan.
+                <br>
+                <br> My work is focused on Web and Graphic design.
+            </p>
+            <div class="btn-know">Know more</div>
+        </div>
+        <div id="skill_container">
+            <div class="skill">
+                <h4>design</h4>
+                <ul>
+                    <li>Graphic Design</li>
+                    <li>Web Design</li>
+                    <li>UI/UX</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h4>code</h4>
+                <ul>
+                    <li>HTML / CSS</li>
+                    <li>js / jQuery</li>
+                    <li>mySQL / PHP</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h4>software</h4>
+                <ul>
+                    <li>PS</li>
+                    <li>AI</li>
+                    <li>AE</li>
+                    <li>DW</li>
+                    <li>Sublime</li>
+            </div>
+            <i class="fa fa-angle-left btn btn-knowb"></i>
+            <i class="fa fa-angle-right btn btn-ex"></i>
+        </div>
+        <div id="ex_container">
+            <img src="img/e1.png" class="e1 gear">
+            <img src="img/e2.png" class="e2 gear">
+            <div class="txt1">
+                <h4>Graduated</h4>
+                <p>from Soochow
+                    <br>University
+                    <br>Law School</p>
+            </div>
+            <img src="img/e3.png" class="e3 gear">
+            <i class="fa fa-angle-down"></i>
+            <div class="txt2">
+                <h4>Freelance<br>Illustrator</h4>
+                <p>32 postcards
+                    <br>and other
+                    <br>stationery goods</p>
+            </div>
+            <img src="img/e4.png" class="e4 gear">
+            <img src="img/e5.png" class="e5 gear">
+            <i class="fa fa-angle-down"></i>
+            <div class="txt3">
+                <h4>Editorial<br>Assistant</h4>
+                <span></span>
+                <i class="fa fa-angle-down"></i>
+                <h4>Information<br>Assistant</h4>
+            </div>
+            <img src="img/e6.png" class="e6 gear">
+            <i class="fa fa-angle-down"></i>
+            <div class="txt4">
+                <h4>III UI/UX<br>course</h4>
+            </div>
+            <img src="img/e7.png" class="e7 gear">
+            <i class="fa fa-angle-down"></i>
+            <div class="txt5">
+                <h4>Freelance<br>Web Designer</h4>
+            </div>
+            <img src="img/e8.png" class="e8 gear">
+            <i class="fa fa-angle-left btn btn-skillb"></i>
+        </div>
+    </section>
+    <!-- ////////////FOCUS業務//////////// -->
+    <div id="focus">
+        <h3>WHAT I DO</h3>
+        <ul id="focus_list">
+            <li><img src="img/interface.png">
+                <p>Website</p>
+            </li>
+            <li><img src="img/tool.png">
+                <p>Logo</p>
+            </li>
+            <li><img src="img/technology.png">
+                <p>Illustration</p>
+            </li>
+        </ul>
+    </div>
+    <!-- //////////PROJECTS作品/////////// -->
+    <section id="projects">
+        <h3>PROJECT</h3>
+        <div id="projects_container">
+            <div class="pbox">
+                <ul class="pic">
+                    <li>
+                        <img src="img/ae.gif" alt="AE">
+                        <h4>After Effect</h4>
+                        <a href="https://youtu.be/Tc0sqfnlA0Y" target="_blank">Watch on Youtube  <i class="fa fa-angle-right"></i></a>
+                    </li>
+                    <li>
+                        <img src="img/css.jpg" alt="CSS">
+                        <h4>Pure CSS Cosmos Menu Page</h4>
+                        <a href="MMMH4505.html" target="_blank">See DEMO  <i class="fa fa-angle-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="control"></div>
+            <div class="pncontrol">
+                <i class="fa fa-angle-left btn btn-prev"></i>
+                <i class="fa fa-angle-right btn btn-next"></i>
+            </div>
+        </div>
+    </section>
+    <!-- ///////////CONTACT聯絡/////////// -->
+    <footer id="contact">
+        <h3>CONTACT</h3>
+        <ul id="contact_list">
+            <li>
+                <a href="mailto:judyshyu.office@gmail.com"><i class="fa fa-envelope"></i>judyshyu.office@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/judy.shyu.7" target="_blank"><i class="fa fa-facebook-square"></i>
+				Judy Shyu</a>
+            </li>
+        </ul>
+        <img src="img/M_02.png" class="gear g7">
+        <img src="img/bg3.png" class="gear g8">
+    </footer>
+    <!-- /////////////goUp向上///////////// -->
+    <div class="goUp">
+        <!-- <img src="img/M_01.png" class="gear g9"> -->
+        <svg class="gear g9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="214px" height="212px" viewBox="0 0 214 212" enable-background="new 0 0 214 212" xml:space="preserve">
+            <g id="Layer_2" opacity="0.5">
+            </g>
+            <g id="Layer_1">
+                <path fill="#F1C40F" d="M193.059,112.498l-16.235-4.557c0.002-0.246,0.019-0.488,0.019-0.734c0-4.793-0.485-9.475-1.401-14.002
+			l14.777-7.754c0,0,2.364-1.926,1.306-5.188c-0.856-2.632-4.107-3.431-4.107-3.431l-16.378,2.395
+			c-2.009-4.627-4.505-8.993-7.415-13.044l10.196-12.905c0,0,1.376-2.721-0.918-5.27c-1.853-2.056-5.147-1.463-5.147-1.463
+			l-13.794,8.727c-3.726-3.419-7.824-6.432-12.218-8.995l4.011-15.72c0,0,0.15-3.045-2.981-4.441
+			c-2.529-1.125-5.299,0.757-5.299,0.757l-8.948,13.428c-4.779-1.589-9.776-2.696-14.945-3.226l-2.707-15.857
+			c0,0-1.102-2.845-4.53-2.845c-2.767,0-4.531,2.845-4.531,2.845l-2.707,15.857c-5.168,0.53-10.166,1.637-14.945,3.226l-8.952-13.429
+			c0,0-2.163-2.151-5.295-0.756c-2.527,1.125-2.982,4.442-2.982,4.442l4.011,15.719c-4.394,2.563-8.492,5.576-12.217,8.994
+			l-13.798-8.727c0,0-2.851-1.085-5.145,1.463c-1.852,2.056-0.918,5.271-0.918,5.271l10.197,12.905
+			c-2.909,4.051-5.405,8.416-7.414,13.042l-16.383-2.394c0,0-3.045,0.168-4.104,3.429c-0.854,2.631,1.305,5.188,1.305,5.188
+			l14.779,7.754c-0.916,4.527-1.401,9.209-1.401,14.003c0,0.245,0.016,0.487,0.019,0.731L19.621,112.5c0,0-2.714,1.392-2.355,4.801
+			c0.289,2.752,3.303,4.209,3.303,4.209l16.987,1.094c1.075,4.803,2.64,9.419,4.641,13.799l-13.224,10.975
+			c0,0-1.913,2.376-0.199,5.345c1.384,2.396,4.73,2.502,4.73,2.502l16.251-6.018c2.863,3.849,6.114,7.389,9.686,10.578l-7.74,15.652
+			c0,0-0.781,2.948,1.992,4.963c2.239,1.627,5.34,0.361,5.34,0.361l12.551-12.255c4.098,2.333,8.448,4.27,13.003,5.751l-0.709,17.568
+			c0,0,0.485,3.011,3.839,3.724c2.707,0.575,5.025-1.842,5.025-1.842l6.503-16.357c2.334,0.235,4.702,0.357,7.097,0.357
+			c2.394,0,4.759-0.122,7.092-0.356l6.506,16.358c0,0,1.668,2.553,5.021,1.84c2.708-0.575,3.843-3.727,3.843-3.727l-0.712-17.564
+			c4.557-1.481,8.906-3.417,13.006-5.75l12.552,12.255c0,0,2.563,1.654,5.336-0.361c2.239-1.627,1.994-4.968,1.994-4.968
+			l-7.739-15.646c3.572-3.189,6.823-6.73,9.688-10.578l16.251,6.016c0,0,3.014,0.469,4.729-2.5c1.383-2.397-0.199-5.349-0.199-5.349
+			l-13.222-10.97c2.002-4.38,3.567-8.997,4.642-13.8l16.986-1.095c0,0,2.943-0.798,3.303-4.208
+			C195.704,114.551,193.059,112.498,193.059,112.498z M53.842,107.207c0-28.949,23.551-52.5,52.5-52.5
+			c28.948,0,52.5,23.551,52.5,52.5c0,28.948-23.552,52.5-52.5,52.5C77.393,159.707,53.842,136.155,53.842,107.207z" />
+            </g>
+        </svg>
+        <i class="fa fa-angle-up goUpf"></i>
+    </div>
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script async src="js/jquery.easing.1.3.js"></script>
+    <script>
+    // hide preloading page
+    var $preloader = $('.preload');
+    $(window).load(function() {
+        $preloader.addClass('js');
+        $('.pre_gear').animate({
+            animation: 'gearturn 1s infinite alternate'
+        })
+        $preloader.fadeOut(1200);
+    });
+    </script>
+    <script async src="js/my_js6.js"></script>
+</body>
+
+</html>
